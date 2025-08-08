@@ -1,7 +1,7 @@
 
 export const  SideBar = () => {
     return (
-        <div className="flex flex-col h-full gap-10 justify-center items-center w-[300px] bg-[#1b2135] text-[var(--supp1)]">
+        <div className="flex flex-col h-full gap-20 justify-center items-center w-[300px] bg-[#1b2135] text-[var(--supp1)]">
             <div className="flex flex-col items-center gap-1 ">
                 <img src="assets/logo/logo.png" alt="logo" className="h-[60px] w-auto" />
                 <h1 className="font-bold text-[12px]">MyPrint.project</h1>
