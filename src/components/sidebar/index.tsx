@@ -1,14 +1,14 @@
 
-export default function SideBar () {
+export const  SideBar = () => {
     return (
         <div className="flex flex-col h-full gap-10 justify-center items-center w-[300px] bg-[#1b2135] text-[var(--supp1)]">
             <div className="flex flex-col items-center gap-1 ">
                 <img src="assets/logo/logo.png" alt="logo" className="h-[60px] w-auto" />
                 <h1 className="font-bold text-[12px]">MyPrint.project</h1>
-                <h1 className="font-bold text-[7px]">Create by: Victor Guimarães</h1>
+                <h1 className="font-bold text-[7px]  text-white">Create by: Victor Guimarães</h1>
             </div>
             <nav className="flex flex-col gap-4 h-40 w-full items-center " >
-                <div className="flex flex-row gap-2  w-[160px] cursor-pointer hover:bg-[var(--hoverSide)]">
+                <div className="flex flex-row gap-2  w-[160px] cursor-pointer hover:bg-[var(--hoverSide)] ">
                     <div className="flex flex-row w-[40px] ">
                         <img src="assets/icons/dashboard.png" alt="home" className="h-[25px] w-auto" />
                     </div>
@@ -43,4 +43,3 @@ export default function SideBar () {
         </div> 
     )
 }
-//#eed3f8
