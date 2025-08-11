@@ -11,10 +11,10 @@ export const  Sidebar = () => {
             </div>
 
             <nav className="flex flex-col gap-4 h-40 w-full items-center text-[14px] " >
-                <SidebarReference way="assets/icons/dashboard.png" name="Dashboard" />
-                <SidebarReference way="assets/icons/printer.png" name="Impressoras" />
-                <SidebarReference way="assets/icons/toner.png" name="Toners" />
-                <SidebarReference way="assets/icons/cylinder.png" name="Drums" />
+                <SidebarReference way="assets/icons/dashboard.png" name="Dashboard" link="/dashboard" />
+                <SidebarReference way="assets/icons/printer.png" name="Impressoras" link="/printer" />
+                <SidebarReference way="assets/icons/toner.png" name="Toners" link="/toner"/>
+                <SidebarReference way="assets/icons/cylinder.png" name="Drums" link="/drum" />
             </nav>
 
             <div className="flex flex-row gap-2 w-[160px] cursor-pointer hover:bg-[var(--hoverSide)] ">
