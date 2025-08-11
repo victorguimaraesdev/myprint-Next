@@ -1,13 +1,13 @@
-import {SidebarReference} from "../references/sidebar.Reference";
+import {SidebarReference} from "../reference/sidebar.Reference";
 
 export const  Sidebar = () => {
     return (
         
-        <div className="flex flex-col h-full gap-10 justify-center items-center w-[300px] bg-[#1b2135] text-[var(--supp1)]">
+        <div className="flex flex-col h-full gap-15 justify-center items-center w-[300px] bg-[#1b2135] text-[var(--supp1)]">
             <div className="flex flex-col items-center gap-1 ">
                 <img src="assets/logo/logo.png" alt="logo" className="h-[60px] w-auto" />
                 <h1 className="font-bold text-[12px]">MyPrint.project</h1>
-                <h1 className="font-bold text-[7px]  text-white">Create by: Victor Guimarães</h1>
+                <h1 className="font-[100] text-[7px]  text-white">Create by: Victor Guimarães</h1>
             </div>
 
             <nav className="flex flex-col gap-4 h-40 w-full items-center text-[14px] " >
@@ -21,7 +21,7 @@ export const  Sidebar = () => {
                 <div className="flex flex-row w-[40px]">
                         <img src="assets/icons/out.png" alt="home" className="h-[25px] w-auto" />
                 </div>
-                    <span className="font-normal text-white text-[14px]">Sair</span>
+                    <span className="font-[100] tracking-widest text-white text-[14px]">Sair</span>
             </div>
 
             <div className="h-[1px] w-full mt-15"></div>
