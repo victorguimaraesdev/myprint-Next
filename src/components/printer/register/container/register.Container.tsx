@@ -2,7 +2,8 @@
 import { useState } from "react"
 import { RegisterInputs } from "../inputs/register.Inputs";
 
-export const Register = () => {
+export const PrinterRegister = () => {
+    
     const [name, setName] = useState ('');
     const [toner, setToner] = useState('');
     const [drum, setDrum] = useState('');
