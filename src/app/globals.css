@@ -21,5 +21,6 @@ body {
   height: 100vh;
   background: var(--secondary);
   color: var(--white);
-  font-family: 'Inter', sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }

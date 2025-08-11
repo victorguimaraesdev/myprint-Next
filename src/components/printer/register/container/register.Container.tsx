@@ -10,10 +10,6 @@ export const Register = () => {
 
      const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setName(event.target.value); 
-        setToner(event.target.value);
-        setDrum(event.target.value);
-        setUnidade(event.target.value);
-        setSetor(event.target.value);
     };
 
     return (
@@ -25,7 +21,7 @@ export const Register = () => {
                     placeholder="Nome:" 
                     value={name}
                     onChange={handleChange}
-                    className="w-full bg-[#282f47] text-white rounded-lg
+                     className="w-full bg-[#282f47] text-white rounded-lg
                     placeholder:text-[#5f667e] text-[15px] pl-2" />
                 </div>
                 <div className="flex flex-col w-full justify-center items-center">

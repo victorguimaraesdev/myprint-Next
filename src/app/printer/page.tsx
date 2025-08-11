@@ -1,5 +1,5 @@
-import { List } from "@/components/printer/list";
-import { Register } from "@/components/printer/register";
+import { List } from "@/components/printer/list/container/list.Container";
+import { Register } from "@/components/printer/register/container/register.Container";
 
 export default function Printer() {
     return (
