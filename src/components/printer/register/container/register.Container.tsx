@@ -1,5 +1,5 @@
 "use client"
-import { useState } from "react"
+import React, { useState } from "react"
 import { RegisterInputs } from "../inputs/register.Inputs";
 
 export const PrinterRegister = () => {
@@ -10,8 +10,12 @@ export const PrinterRegister = () => {
     const [unity,setUnity] = useState(''); 
     const [sector,setSector] = useState('');
 
+    const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+
+    }
+
     return (
-         <div className="flex flex-row h-[90px] gap-2 p-1 w-[800px] bg-[var(--primary)] rounded-lg">
+         <form onSubmit={handleSubmit} className="flex flex-row h-[90px] gap-2 p-1 w-[800px] bg-[var(--primary)] rounded-lg">
             <div className="flex flex-col w-1/2 gap-2">
                 <RegisterInputs placeholder="Nome:" item={name} setProp={setName}/>
                 <RegisterInputs placeholder="Toner:" item={toner} setProp={setToner}/>
@@ -25,6 +29,6 @@ export const PrinterRegister = () => {
                     className="w-full bg-[var(--supp2)] text-[#d6d6d6] font-bold rounded-lg">Registar</button>
                 </div>
             </div>
-        </div>
+        </form>
     )
 }
